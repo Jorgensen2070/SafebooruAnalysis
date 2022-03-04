@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.headerlink-title {
+  color: black;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.headerlink-dot {
+  padding-left: 10px;
+  opacity: 0;
+  transition: opacity 200ms linear;
+  text-align: center;
+}
+
+.headerlink-title:hover .headerlink-dot {
+  padding-left: 10px;
+  opacity: 1;
+}
+
+.headerlink-dot-active {
+  padding-left: 10px;
+  text-align: center;
+}
+
+.headerlink-no-link {
+  pointer-events: none;
+}
