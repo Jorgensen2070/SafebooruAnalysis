@@ -31,7 +31,7 @@ In order to use this method pm2 needs to be installed. This can be done via the 
 After that the following command should be executed whiting this directory in order to create a folder that can be
 served.
 
-`npm build`
+`npm run build`
 
 After this command was executed a folder named "build" is created. This folder can now be deployed by using pm2. In
 order to deploy this folder the following command needs to be executed:
